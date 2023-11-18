@@ -47,7 +47,7 @@ export default function GraphicalWidget({ columnsConfig, data, widgetTitle }) {
     }
   }
   return (
-    <div className="border-base-gray border-2 h-[297px] bg-white rounded-md m-3">
+    <div className="border-base-gray border-2 h-[297px] bg-white rounded-md m-3 mt-72">
       <div className="padding px-1.5 py-1 border-b">
         {widgetTitle}
         <span>

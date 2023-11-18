@@ -12,7 +12,7 @@ function App() {
     <>
       <Header />
       <div className="grid grid-cols-2 grid-rows-1 gap-x-10">
-        <div>Cell 1</div>
+        <div className="pt-72">Cell 1</div>
         <div>
           <GraphicalWidget
             columnsConfig={AD_INSIGHT_GRAPHICAL_DATA_COLUMNS}
